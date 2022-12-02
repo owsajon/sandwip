@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: rgba(255, 129, 71, 0.897);
+    border-bottom: 4px solid tomato;
+}
+nav div h2{
+    font-size: 40px;
+    color: rgb(53, 14, 8);
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero-area > div{
+    display: flex;
+    
+}
+.hero-area{
+    background-image: url(images/sandwipimg.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.search-box{
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgba(241, 240, 255, 0.123);
+    color: white;
+    font-size: 24px;
+    padding: 5px 20px;
+}
+
+.icon{
+    font-size: 30px;
+    color: tomato;
+    margin-left: 5px;
+    cursor: pointer;
+   
+}
+
+main{
+    background-color: #2d236a;
+    border-top: 10px solid rgb(248, 117, 94);
+}
+
+#main-secation{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main-section-card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.latest-photo-text{
+    font-size: 26px;
+    color: orange;
+    font-weight: bold;
+}
+
+.latest-photo-text span{
+    color: black;
+    background-color: rgb(153, 102, 7);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #80805b;
+    cursor: pointer;
+}
+.latest-photo-text span:hover{
+    background-color: antiquewhite;
+}
