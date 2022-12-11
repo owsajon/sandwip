@@ -105,3 +105,41 @@ main{
 .latest-photo-text span:hover{
     background-color: antiquewhite;
 }
+
+.single-card-parents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 70px;
+    grid-column-gap: 20px;
+    margin-top: 25px;
+}
+
+.single-card{
+    height: 250px;
+    border: 4px solid gray;
+    
+}
+
+.single-card img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.single-card:hover img{
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+.single-card:hover .single-card-title{
+    color: rgb(221, 62, 34);
+}
+
+.single-card-title{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
